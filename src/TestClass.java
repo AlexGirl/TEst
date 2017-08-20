@@ -23,18 +23,18 @@ public class TestClass {
             list.add(a2);
         }
 
-//        hashSet.addAll(list);
-//        treeSet.addAll(hashSet);
-//        for (Animals m : treeSet) {
-//            System.out.println(m.getType());
-//        }
-//
-//        HashMap<String, Animals> hm = new HashMap<>();
-//        hm.put("Time", list.get(0));
-//        hm.put("For", list.get(1));
-//        hm.put("Killing", list.get(2));
-//
-//        System.out.println(hm);
+        hashSet.addAll(list);
+        treeSet.addAll(hashSet);
+        for (Animals m : treeSet) {
+            System.out.println(m.getType());
+        }
+
+        HashMap<String, Animals> hm = new HashMap<>();
+        hm.put("Time", list.get(0));
+        hm.put("For", list.get(1));
+        hm.put("Killing", list.get(2));
+
+        System.out.println(hm);
         takeAnimals(list);
     }
 
