@@ -5,9 +5,6 @@ public class TestClass {
     ArrayList<Animals> list = new ArrayList<>();
     ArrayList<Dog> dogs = new ArrayList<Dog>();
     List<Dog> anim = dogs;
-    ArrayList<Animals> list3 = new ArrayList<>();
-    ArrayList<Dog> dogs3 = new ArrayList<Dog>();
-    List<Dog> anim = dogs3;
 
     public static void main(String[] args) {
         new TestClass().go();
