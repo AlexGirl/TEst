@@ -3,11 +3,8 @@ import java.util.*;
 public class TestClass {
 
     ArrayList<Animals> list = new ArrayList<>();
-
     ArrayList<Dog> dogs = new ArrayList<Dog>();
-
     List<Dog> anim = dogs;
-
 
     public static void main(String[] args) {
         new TestClass().go();
